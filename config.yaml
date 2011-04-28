@@ -1,0 +1,6 @@
+TITLE: blohg
+TITLE_HTML: blohg
+TAGLINE: A Mercurial-based blogging engine
+AUTHOR: Rafael G. Martins
+#DISQUS: your-disqus-id
+TIMEZONE: UTC
