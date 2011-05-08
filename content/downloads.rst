@@ -12,4 +12,4 @@ http://hg.rafaelmartins.eng.br/blohg/
 Please read the documentation_ for installation instructions.
 
 .. _PyPI: http://pypi.python.org/
-.. _documentation: http://docs.blohg,org/
+.. _documentation: http://docs.blohg.org/
