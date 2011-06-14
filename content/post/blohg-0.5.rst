@@ -17,6 +17,7 @@ This version comes with some improvements to the reStructuredText_ directives:
 - Added a new directive ``subpages``, to create a list of links for subpages
   automatically.
 
-See the documentation of the reStructuredText_ directives for reference.
+`See the documentation <http://docs.blohg.org/write/#additional-restructuredtext-directives>`_
+of the reStructuredText_ directives for reference.
 
 Thanks!
