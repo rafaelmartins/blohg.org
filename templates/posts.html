@@ -34,8 +34,15 @@
 {% endif -%}
 
 <div class="metadata">
-    Published: {{ post.datetime|datetimeformat }}
-    {%- if post.mdatetime %} - Modified: {{ post.mdatetime|datetimeformat }}{% endif %}
+    Author:
+    {% if post.author_email -%}
+    <a href="mailto:{{ post.author_email }}">{{ post.author_name }}</a>
+    {%- else %}
+    {{ post.author_name }}
+    {%- endif %}
+    <br />
+    Published on: {{ post.datetime|datetimeformat }}
+    {%- if post.mdatetime %} - Modified on: {{ post.mdatetime|datetimeformat }}{% endif %}
     <br />
     {% if post.tags -%}
     Tags:
