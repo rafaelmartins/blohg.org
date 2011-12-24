@@ -1,6 +1,10 @@
 {%- extends 'base.html' %}
 
-{%- block title %}{% if title %} » {{ title }}{% endif %}{% endblock %}
+{%- block title %}
+    {%- if active_page == 'posts' %} » News
+    {%- else %}{% if title %} » {{ title }}{% endif %}
+    {%- endif %}
+{%- endblock %}
 
 {%- block body %}
 

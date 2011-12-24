@@ -23,9 +23,8 @@
             <h1>{{ config.TITLE_HTML }}</h1>
             <h2>{{ config.TAGLINE }}</h2>
             <ul>
-                <li><a href="{{ url_for('views.home') }}">Home</a></li>
-                <li><a href="{{ url_for('views.post_list') }}">News</a></li>
-                <li><a href="{{ url_for('views.content', slug='about') }}">About</a></li>
+                <li><a href="{{ url_for('views.home') }}">About</a></li>
+                <li><a href="{{ url_for('views.posts') }}">News</a></li>
                 <li><a href="http://docs.blohg.org/">Documentation</a></li>
                 <li><a href="{{ url_for('views.content', slug='downloads') }}">Downloads</a></li>
             </ul>
