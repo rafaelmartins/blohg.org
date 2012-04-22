@@ -3,7 +3,7 @@ blohg-0.9.2
 
 .. tags: announcements, releases
 
-blohg 0.9.2 was just release. It is a bugfix release.
+blohg 0.9.2 was just released. It is a bugfix release.
 
 - fixed some testsuite issues with Python 2.6
 - fixed Youtube/Vimeo reStructuredText directives
