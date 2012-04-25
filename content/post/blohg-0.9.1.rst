@@ -3,7 +3,7 @@ blohg-0.9.1
 
 .. tags: announcements, releases
 
-blohg 0.9.1 was just release. It is a bugfix release.
+blohg 0.9.1 was just released. It is a bugfix release.
 
 - fixed a bug on the Mercurial Jinja2 loader
 - fixed a bug on the aliases support for pages
