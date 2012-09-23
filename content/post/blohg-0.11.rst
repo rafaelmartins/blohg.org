@@ -8,7 +8,7 @@ blohg 0.11 was just released.
 New features:
 
 - Added a ``RST_HEADER_LEVEL`` configuration option, to make it easier to
-  addapt blohg to your layout.
+  adapt blohg to your layout.
 - Added support to scheduled posts/pages.
 - Added a new syntax, more human-readable, for the dates defined on the
   source files. For example: ``2012-09-23 00:00:00``.
