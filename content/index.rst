@@ -1,13 +1,14 @@
 About blohg
 ===========
 
-blohg_ is a Mercurial_-based blogging engine written in Python_, built on the
-top of the Flask_ micro-framework and some of its extensions. All the content of
-the blogs are stored inside Mercurial_ repositories, and the repository history
-is used to build the posts and pages.
+blohg_ is a Mercurial_ (or alternatively Git_) based blogging engine written in
+Python_, built on the top of the Flask_ micro-framework and some of its extensions.
+All the content of the blogs are stored inside repositories, and the repository
+history is used to build the posts and pages.
 
 .. _blohg: http://blohg.org/
 .. _Mercurial: http://mercurial.selenic.com/
+.. _Git: http://git-scm.com/
 .. _Python: http://python.org/
 .. _Flask: http://flask.pocoo.org/
 
@@ -30,9 +31,9 @@ advantage of the VCS's revision history.
 
 .. _VCS: http://en.wikipedia.org/wiki/Revision_control
 
-This project uses Mercurial_ as the VCS_, reStructuredText_ as the markup
-language and Jinja2_ as the template engine. All of these are pretty popular
-within the Python ecosystem and easy to use.
+This project uses Mercurial_ (or even Git_) as the VCS_, reStructuredText_ as
+the markup language and Jinja2_ as the template engine. All of these are pretty
+popular within the Python ecosystem and easy to use.
 
 .. _reStructuredText: http://docutils.sourceforge.net/rst.html
 .. _Jinja2: http://jinja.pocoo.org/
