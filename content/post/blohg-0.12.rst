@@ -8,7 +8,7 @@ Almost 1 year after blohg-0.11, blohg-0.12 is out! Get it while it is hot! :)
 New features:
 
 - Git support (Experimental). It is mostly transparent. Users just need to
-  convert they sources repository, or create a new one with
+  convert their sources repository, or create a new one with
   ``blohg initrepo --git``.
 - `Extensions support`_ (Experimental). This feature isn't properly documented
   yet, take a look at a `real world example`_ if you want to write your own
