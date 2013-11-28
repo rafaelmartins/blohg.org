@@ -7,7 +7,7 @@ http://pypi.python.org/pypi/blohg
 
 Mercurial repository with the development sourcecode available here:
 
-http://hg.rafaelmartins.eng.br/blohg/
+https://github.com/rafaelmartins/blohg
 
 Please read the documentation_ for installation instructions.
 
