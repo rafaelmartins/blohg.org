@@ -9,6 +9,7 @@ run: clean
 deploy: build/
 	github-pages-publish \
 		--verbose \
+		--cname blohg.org \
 		. \
 		build/
 
